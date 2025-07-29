@@ -10,7 +10,9 @@ function Navbar() {
   return (
     <nav className="h-16 w-full px-8 sm:px-36 bg-white text-[14.4px] flex justify-between items-center border-b-1 border-b-neutral-200 fixed z-50 top-0">
       <div>
-        <h1 className="text-xl tracking-widest text-blue-500">&copy; Zuno</h1>
+        <h1 className="text-xl tracking-widest text-blue-500">
+          <i className="fa-regular fa-heart"></i> Zuno
+        </h1>
       </div>
 
       <div className="hidden sm:flex gap-12 font-light">
