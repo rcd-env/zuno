@@ -9,14 +9,6 @@ function HomePage() {
   return (
     <>
       <Navbar />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Hero />
       <Stats />
       <Pricing />
