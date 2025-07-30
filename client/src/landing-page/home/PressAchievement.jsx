@@ -2,8 +2,8 @@ import React from "react";
 
 function PressAchievement() {
   return (
-    <div className="flex justify-center mb-16">
-      <img src="/pressLogos.png" alt="" />
+    <div className="mb-16 flex justify-center items-center">
+      <img src="/pressLogos.png" alt="" className="w-[90%] sm:w-auto" />
     </div>
   );
 }
