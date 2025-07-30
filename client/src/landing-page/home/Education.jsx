@@ -4,7 +4,7 @@ function Education() {
   return (
     <div className="px-8 sm:px-28 flex flex-col sm:flex-row sm:gap-28 mb-16">
       <div>
-        <img src="/education.svg" alt="" />
+        <img src="/assets/images/education.svg" alt="" />
       </div>
       <div className="mt-8 sm:mt-2 flex flex-col gap-2">
         <h2 className="text-xl font-semibold mb-8">

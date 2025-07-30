@@ -35,7 +35,7 @@ function Stats() {
         ))}
       </div>
       <div>
-        <img src="/ecosystem.png" alt="" className="w-lvw" />
+        <img src="/assets/images/ecosystem.png" alt="" className="w-lvw" />
         <div className="mt-4 flex justify-between sm:justify-center items-center sm:gap-12">
           <a href="" className="text-blue-500 hover:text-black">
             Explore Our Products <i class="fa-solid fa-arrow-right"></i>

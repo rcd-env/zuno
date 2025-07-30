@@ -4,15 +4,15 @@ function Pricing() {
   const pricingDetails = [
     {
       title: "Free account opening",
-      icon: "/pricing0.svg",
+      icon: "/assets/images/pricing0.svg",
     },
     {
       title: "Free equity delivery and direct mutual funds",
-      icon: "/pricingEquity.svg",
+      icon: "/assets/images/pricingEquity.svg",
     },
     {
       title: "Intraday and F&O",
-      icon: "/intradayTrades.svg",
+      icon: "/assets/images/intradayTrades.svg",
     },
   ];
   return (

@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="w-full h-20 bg-white py-4 sm:py-0 flex flex-col gap-4 sm:gap-0 sm:flex-row justify-around items-center border-t-1 border-t-neutral-200">
+    <footer className="w-full  sm:h-20 bg-white py-4 sm:py-0 flex flex-col gap-4 sm:gap-0 sm:flex-row justify-around items-center border-t-1 border-t-neutral-200 ">
       <div>&copy; Zuno</div>
       <div className="f-info-links">
         <a href="/privacy" className="hover:underline">

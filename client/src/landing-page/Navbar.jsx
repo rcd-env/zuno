@@ -24,8 +24,8 @@ function Navbar() {
         <a href="/about" className="hover:text-blue-400">
           About
         </a>
-        <a href="/product" className="hover:text-blue-400">
-          Product
+        <a href="/products" className="hover:text-blue-400">
+          Products
         </a>
         <a href="/pricing" className="hover:text-blue-400">
           Pricing
@@ -58,19 +58,19 @@ function Navbar() {
       {isMenuOpen && (
         <div className="absolute top-16 left-0 w-full bg-white border-b-1 border-b-neutral-200 block sm:hidden">
           <div className="flex flex-col gap-4 font-light p-4">
-            <a href="#" className="hover:text-blue-400">
+            <a href="/signup" className="hover:text-blue-400">
               Sign Up
             </a>
-            <a href="#" className="hover:text-blue-400">
+            <a href="/about" className="hover:text-blue-400">
               About
             </a>
-            <a href="#" className="hover:text-blue-400">
-              Product
+            <a href="/products" className="hover:text-blue-400">
+              Products
             </a>
-            <a href="#" className="hover:text-blue-400">
+            <a href="/pricing" className="hover:text-blue-400">
               Pricing
             </a>
-            <a href="#" className="hover:text-blue-400">
+            <a href="/support" className="hover:text-blue-400">
               Support
             </a>
           </div>

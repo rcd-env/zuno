@@ -10,14 +10,12 @@ import PressAchievement from "./PressAchievement";
 function HomePage() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Stats />
       <PressAchievement />
       <Pricing />
       <Education />
       <OpenAccount />
-      <Footer />
     </>
   );
 }

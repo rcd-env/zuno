@@ -6,9 +6,7 @@ import OpenAccount from "../OpenAccount";
 function SignupPage() {
   return (
     <>
-      <Navbar />
       <OpenAccount />
-      <Footer />
     </>
   );
 }
