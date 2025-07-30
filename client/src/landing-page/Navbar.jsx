@@ -10,25 +10,27 @@ function Navbar() {
   return (
     <nav className="h-16 w-full px-8 sm:px-36 bg-white text-[14.4px] flex justify-between items-center border-b-1 border-b-neutral-200 fixed z-50 top-0">
       <div>
-        <h1 className="text-xl tracking-widest text-blue-500">
-          <i className="fa-regular fa-heart"></i> Zuno
-        </h1>
+        <a href="/">
+          <h1 className="text-xl font-semibold tracking-widest text-blue-500">
+            <i className="fa-regular fa-heart"></i> Zuno
+          </h1>
+        </a>
       </div>
 
       <div className="hidden sm:flex gap-12 font-light">
-        <a href="#" className="hover:text-blue-400">
+        <a href="/signup" className="hover:text-blue-400">
           Sign Up
         </a>
-        <a href="#" className="hover:text-blue-400">
+        <a href="/about" className="hover:text-blue-400">
           About
         </a>
-        <a href="#" className="hover:text-blue-400">
+        <a href="/product" className="hover:text-blue-400">
           Product
         </a>
-        <a href="#" className="hover:text-blue-400">
+        <a href="/pricing" className="hover:text-blue-400">
           Pricing
         </a>
-        <a href="#" className="hover:text-blue-400">
+        <a href="/support" className="hover:text-blue-400">
           Support
         </a>
       </div>

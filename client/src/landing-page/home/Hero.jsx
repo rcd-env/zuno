@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="hero sm:h-screen w-full text-center mt-16 flex flex-col items-center gap-4">
+    <div className="hero w-full text-center mt-16 mb-20 flex flex-col items-center gap-4">
       <img src="/homeHero.png" alt="" className="max-h-[45vh] mt-16 mb-8" />
       <h1 className="text-2xl font-bold">Invest In Everything</h1>
       <p className="text-xl mb-8">

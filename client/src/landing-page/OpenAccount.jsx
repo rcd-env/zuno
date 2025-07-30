@@ -4,7 +4,7 @@ function OpenAccount() {
   return (
     <div className="text-center px-8 sm:px-0">
       <h1 className="text-2xl font-bold mb-8">Open a Zuno Account</h1>
-      <p className="text-lg mb-8 text-gray-500">
+      <p className="text-md mb-8 text-gray-500">
         Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O
         trades.
       </p>
