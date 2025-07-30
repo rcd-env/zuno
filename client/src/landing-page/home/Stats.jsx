@@ -24,7 +24,7 @@ function Stats() {
     },
   ];
   return (
-    <div className="px-6 sm:px-28 flex flex-col sm:flex-row items-center justify-between">
+    <div className="px-6 sm:px-28 mb-16 flex flex-col sm:flex-row items-center justify-between">
       <div>
         <h2 className="text-xl font-semibold mb-8">Trust With Confidence</h2>
         {Stats.map((stat, index) => (

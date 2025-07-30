@@ -5,6 +5,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import OpenAccount from "../OpenAccount";
 import Education from "./Education";
+import PressAchievement from "./PressAchievement";
 
 function HomePage() {
   return (
@@ -12,6 +13,7 @@ function HomePage() {
       <Navbar />
       <Hero />
       <Stats />
+      <PressAchievement />
       <Pricing />
       <Education />
       <OpenAccount />
