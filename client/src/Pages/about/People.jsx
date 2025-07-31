@@ -16,17 +16,22 @@ function People() {
           <h3 className="text-center">Rakesh Das</h3>
           <p className="text-center">Founder &bull; CEO</p>
         </div>
-        <div className="flex flex-col gap-4 sm:w-[60%] sm:pt-10">
+        <div className="flex flex-col gap-4 sm:w-[60%] sm:py-auto">
           <p>
-            Rakesh bootstrapped and founded Zerodha in 2010 to overcome the
-            hurdles he faced during his decade long stint as a trader. Today,
-            Zerodha has changed the landscape of the Indian broking industry.
+            Rakesh founded this Zerodha Clone "Zuno" as a full-stack development
+            project to explore the intersection of finance and technology. The
+            aim was to replicate the core features of a modern stock trading
+            platform, including seamless user onboarding, portfolio tracking,
+            and order management, while building everything from the ground up.
           </p>
           <p>
-            He is a member of the SEBI Secondary Market Advisory Committee
-            (SMAC) and the Market Data Advisory Committee (MDAC).
+            With a strong interest in fintech, Rakesh designed and developed the
+            platform using technologies like React, Node.js, Express, MongoDB,
+            and RESTful APIs. Every component, from the frontend UI to secure
+            backend logic, has been carefully crafted to mirror the experience
+            of using a real-world brokerage app.
           </p>
-          <p>Playing basketball is his zen.</p>
+          <p>Playing DeadShot is his zen.</p>
         </div>
       </div>
     </div>
