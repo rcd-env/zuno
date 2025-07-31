@@ -37,11 +37,11 @@ function Stats() {
       <div>
         <img src="/assets/images/ecosystem.png" alt="" className="w-lvw" />
         <div className="mt-4 flex justify-between sm:justify-center items-center sm:gap-12">
-          <a href="" className="text-blue-500 hover:text-black">
-            Explore Our Products <i class="fa-solid fa-arrow-right"></i>
+          <a href="#" className="text-blue-500 hover:text-black">
+            Explore Our Products <i className="fa-solid fa-arrow-right"></i>
           </a>
-          <a href="" className="text-blue-500 hover:text-black">
-            Try Kite Demo <i class="fa-solid fa-arrow-right"></i>
+          <a href="#" className="text-blue-500 hover:text-black">
+            Try Kite Demo <i className="fa-solid fa-arrow-right"></i>
           </a>
         </div>
       </div>

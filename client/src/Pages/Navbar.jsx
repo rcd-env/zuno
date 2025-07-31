@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,29 +11,29 @@ function Navbar() {
   return (
     <nav className="h-16 w-full px-8 sm:px-36 bg-white text-[14.4px] flex justify-between items-center border-b-1 border-b-neutral-200 fixed z-50 top-0">
       <div>
-        <a href="/">
+        <Link to="/">
           <h1 className="text-xl font-semibold tracking-widest text-blue-500">
-            <i className="fa-regular fa-heart"></i> Zuno
+            Zuno
           </h1>
-        </a>
+        </Link>
       </div>
 
       <div className="hidden sm:flex gap-12 font-light">
-        <a href="/signup" className="hover:text-blue-400">
+        <Link to="/signup" className="hover:text-blue-400">
           Sign Up
-        </a>
-        <a href="/about" className="hover:text-blue-400">
+        </Link>
+        <Link to="/about" className="hover:text-blue-400">
           About
-        </a>
-        <a href="/products" className="hover:text-blue-400">
+        </Link>
+        <Link to="/products" className="hover:text-blue-400">
           Products
-        </a>
-        <a href="/pricing" className="hover:text-blue-400">
+        </Link>
+        <Link to="/pricing" className="hover:text-blue-400">
           Pricing
-        </a>
-        <a href="/support" className="hover:text-blue-400">
+        </Link>
+        <Link to="/support" className="hover:text-blue-400">
           Support
-        </a>
+        </Link>
       </div>
 
       <button className="block sm:hidden cursor-pointer" onClick={toggleMenu}>
@@ -58,21 +59,21 @@ function Navbar() {
       {isMenuOpen && (
         <div className="absolute top-16 left-0 w-full bg-white border-b-1 border-b-neutral-200 block sm:hidden">
           <div className="flex flex-col gap-4 font-light p-4">
-            <a href="/signup" className="hover:text-blue-400">
+            <Link to="/signup" className="hover:text-blue-400">
               Sign Up
-            </a>
-            <a href="/about" className="hover:text-blue-400">
+            </Link>
+            <Link to="/about" className="hover:text-blue-400">
               About
-            </a>
-            <a href="/products" className="hover:text-blue-400">
+            </Link>
+            <Link to="/products" className="hover:text-blue-400">
               Products
-            </a>
-            <a href="/pricing" className="hover:text-blue-400">
+            </Link>
+            <Link to="/pricing" className="hover:text-blue-400">
               Pricing
-            </a>
-            <a href="/support" className="hover:text-blue-400">
+            </Link>
+            <Link to="/support" className="hover:text-blue-400">
               Support
-            </a>
+            </Link>
           </div>
         </div>
       )}

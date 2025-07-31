@@ -1,17 +1,18 @@
 import React from "react";
+import { Link } from "react-router";
 
 function Footer() {
   return (
     <footer className="w-full  sm:h-20 bg-white py-4 sm:py-0 flex flex-col gap-4 sm:gap-0 sm:flex-row justify-around items-center border-t-1 border-t-neutral-200 ">
       <div>&copy; Zuno</div>
       <div className="f-info-links">
-        <a href="/privacy" className="hover:underline">
+        <Link to="/privacy" className="hover:underline">
           Privacy
-        </a>{" "}
+        </Link>{" "}
         &bull;{" "}
-        <a href="/terms" className="hover:underline">
+        <Link to="/terms" className="hover:underline">
           Terms
-        </a>
+        </Link>
       </div>
       <div className="f-info-socials flex justify-around items-center gap-3 ">
         <a

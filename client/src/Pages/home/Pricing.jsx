@@ -40,8 +40,8 @@ function Pricing() {
           ))}
         </div>
       </div>
-      <a href="" className="text-blue-500 hover:text-black">
-        See Pricing <i class="fa-solid fa-arrow-right"></i>
+      <a href="#" className="text-blue-500 hover:text-black">
+        See Pricing <i className="fa-solid fa-arrow-right"></i>
       </a>
     </div>
   );
