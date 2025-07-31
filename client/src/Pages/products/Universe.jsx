@@ -6,7 +6,7 @@ function Universe() {
       <h2 className="text-center text-2xl mb-6 font-semibold">
         The Zuno Universe
       </h2>
-      <p className="text-center text-xl text-gray-600 mb-16">
+      <p className="text-center text-xl text-gray-600 mb-16 px-4">
         Extend your trading and investment experience even further with our
         partner platforms
       </p>

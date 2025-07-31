@@ -10,7 +10,7 @@ function Hero() {
       </p>
       <p className="text-sm">
         Check out our{" "}
-        <a href="#" className="text-blue-500 hover:text-black">
+        <a href="/invest" className="text-blue-500 hover:text-black">
           investment offerings <i className="fa-solid fa-arrow-right"></i>
         </a>
       </p>
