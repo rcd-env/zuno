@@ -16,9 +16,7 @@ function LoginPage() {
       <Investments />
       <Steps />
       <Benefits />
-
       <Faqs />
-      <OpenAccount />
     </>
   );
 }

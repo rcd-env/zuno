@@ -15,9 +15,7 @@ function SignupPage() {
       <Investments />
       <Steps />
       <Benefits />
-
       <Faqs />
-      <OpenAccount />
     </>
   );
 }

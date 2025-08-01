@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 function Hero() {
   return (
@@ -14,7 +15,7 @@ function Hero() {
         bonds, and more.
       </p>
       <button className="bg-[#397ED1] cursor-pointer text-white py-2 px-4 rounded mb-20 sm:mb-0">
-        Sign Up For Free
+        <Link to="/signup">Sign Up For Free</Link>
       </button>
     </div>
   );

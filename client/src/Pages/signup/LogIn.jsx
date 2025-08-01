@@ -42,7 +42,7 @@ function LogIn() {
               id="email"
               type="email"
               {...formik.getFieldProps("email")}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-500"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none text-gray-900 placeholder-gray-500"
               placeholder="Enter your email"
             />
             {formik.touched.email && formik.errors.email ? (
@@ -64,7 +64,7 @@ function LogIn() {
               id="password"
               type="password"
               {...formik.getFieldProps("password")}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 placeholder-gray-500"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none text-gray-900 placeholder-gray-500"
               placeholder="Enter your password"
             />
             {formik.touched.password && formik.errors.password ? (
