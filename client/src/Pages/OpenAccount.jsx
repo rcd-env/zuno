@@ -8,7 +8,7 @@ function OpenAccount() {
         Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O
         trades.
       </p>
-      <button className="bg-[#397ED1] cursor-pointer text-white py-2 px-4 rounded mb-12">
+      <button className="bg-[#397ED1] hover:bg-[#2c6bbf] cursor-pointer text-white py-2 px-4 rounded mb-12">
         Sign Up For Free
       </button>
     </div>
