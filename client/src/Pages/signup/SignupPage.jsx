@@ -4,7 +4,7 @@ import SignUp from "./SignUp";
 import Investments from "./Investments";
 import Benefits from "./Benefits";
 import Steps from "./Steps";
-import AccountTypes from "./AccountTypes";
+
 import Faqs from "./Faqs";
 
 function SignupPage() {
@@ -15,7 +15,7 @@ function SignupPage() {
       <Investments />
       <Steps />
       <Benefits />
-      <AccountTypes />
+
       <Faqs />
       <OpenAccount />
     </>
