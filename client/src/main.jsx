@@ -12,7 +12,7 @@ import Navbar from "./Pages/Navbar.jsx";
 import Footer from "./Pages/Footer.jsx";
 import NotFound from "./Pages/NotFound.jsx";
 import LoginPage from "./Pages/signup/LoginPage.jsx";
-import ScrollToTop from "./components/ScrollToTop.jsx";
+import ScrollToTop from "./Pages/ScrollToTop.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
